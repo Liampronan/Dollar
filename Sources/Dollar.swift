@@ -1642,8 +1642,8 @@ open class Chain<C> {
     }
 }
 
-typealias `$` = Dollar
-typealias € = Dollar
+public typealias `$` = Dollar
+public typealias € = Dollar
 
 private struct Wrapper<V> {
     let value: V
